@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Lua
+      uses: leafo/gh-actions-lua@v10
+    - name: Install luacheck
+      run: |
+        luarocks install luacheck
+    - name: Run luacheck
+      run: |
+        luacheck lua/smart-replace
+
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Neovim
+      uses: rhysd/action-setup-vim@v1
+      with:
+        neovim: true
+    - name: Run Tests
+      run: |
+        nvim --version
+        # Add test command if you have tests
+        # For example: nvim --headless -c "PlenaryBustedDirectory lua/smart-replace/tests"
