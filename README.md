@@ -61,9 +61,23 @@ Powerful replacement across multiple patterns simultaneously.
 
 We've prepared demonstration videos to showcase the plugin's capabilities:
 
-1. `rp.mp4`: Demonstrates global and visual replacements with `<leader>rp`
-2. `lp.mp4`: Shows line-specific replacements with `<leader>lp`
-3. `mc.mp4`: Illustrates multi-cursor replacements in normal and visual modes
+### Global and Visual Replacements (`<leader>rp`)
+[![Global and Visual Replacements](https://img.youtube.com/vi/PLACEHOLDER_YOUTUBE_ID/0.jpg)](demo/rp.mp4)
+- Demonstrates replacing text globally or in selected regions
+- Shows how `<leader>rp` works in both normal and visual modes
+
+### Line-Specific Replacements (`<leader>lp`)
+[![Line Replacements](https://img.youtube.com/vi/PLACEHOLDER_YOUTUBE_ID/0.jpg)](demo/lp.mp4)
+- Highlights the use of `<leader>lp` for single-line text replacements
+- **Important**: Not recommended for visual mode selections
+
+### Multi-Cursor Replacements (`<leader>mc`)
+[![Multi-Cursor Replacements](https://img.youtube.com/vi/PLACEHOLDER_YOUTUBE_ID/0.jpg)](demo/mc.mp4)
+- Demonstrates `<leader>mc` in normal and visual modes
+- Shows how to replace multiple text patterns simultaneously
+- Works globally in normal mode and selectively in visual mode
+
+**Note**: Click on the video thumbnails to watch the demonstrations directly from the repository.
 
 ## 💡 Best Practices
 
