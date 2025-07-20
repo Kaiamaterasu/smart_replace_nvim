@@ -59,25 +59,28 @@ Powerful replacement across multiple patterns simultaneously.
 
 ## 🎬 Demonstration Videos
 
-We've prepared demonstration videos to showcase the plugin's capabilities:
+We've prepared demonstration GIFs to showcase the plugin's capabilities:
 
 ### Global and Visual Replacements (`<leader>rp`)
-[![Global and Visual Replacements](https://img.youtube.com/vi/PLACEHOLDER_YOUTUBE_ID/0.jpg)](demo/rp.mp4)
+![Global and Visual Replacements](demo/rp.gif)
+
 - Demonstrates replacing text globally or in selected regions
 - Shows how `<leader>rp` works in both normal and visual modes
 
 ### Line-Specific Replacements (`<leader>lp`)
-[![Line Replacements](https://img.youtube.com/vi/PLACEHOLDER_YOUTUBE_ID/0.jpg)](demo/lp.mp4)
+![Line Replacements](demo/lp.gif)
+
 - Highlights the use of `<leader>lp` for single-line text replacements
 - **Important**: Not recommended for visual mode selections
 
 ### Multi-Cursor Replacements (`<leader>mc`)
-[![Multi-Cursor Replacements](https://img.youtube.com/vi/PLACEHOLDER_YOUTUBE_ID/0.jpg)](demo/mc.mp4)
+![Multi-Cursor Replacements](demo/mc.gif)
+
 - Demonstrates `<leader>mc` in normal and visual modes
 - Shows how to replace multiple text patterns simultaneously
 - Works globally in normal mode and selectively in visual mode
 
-**Note**: Click on the video thumbnails to watch the demonstrations directly from the repository.
+**Note**: These GIFs demonstrate the key features of the Smart Replace plugin.
 
 ## 💡 Best Practices
 
